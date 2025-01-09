@@ -146,7 +146,7 @@ console.log(++a) //  21
  // comparison opereator  (== , ===)
 
  // == only check the value
- // === check the value and type
+ // === check the value and type (strict equal)
 
  let tt = '20';
  let pp =20;
