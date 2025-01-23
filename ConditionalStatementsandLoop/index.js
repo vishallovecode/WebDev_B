@@ -135,3 +135,88 @@ console.log(employee.mobile)
 //     console.log('While loop',j);
 //     j++
 // }
+
+
+
+
+// Switch case
+let value =  10
+if(value>10) {
+    if(value%2 ==0) {
+        if(value%2 == 0 && value%5===0){
+
+        }
+    }
+}
+
+let month  = 2;
+switch(month) {
+    case 1: {
+        console.log('Cold Season....');
+        break;
+    }
+    case 2: {
+        console.log('Cold Season 2....')
+        break;
+    }
+    case 3: {
+        console.log('Holi time....')
+        break;
+    }
+    case 4: {
+        console.log('Baisakhi...')
+        break;
+    }
+    case 5: {   
+        console.log('End sem')
+        break;
+    }
+    case 6: {
+        console.log('Holidady , summer internship')
+        break;
+    }
+    case 7: {
+        console.log('Internship')
+        break;
+
+    }
+    case 8: {
+        console.log('Juniors ')
+        break;
+    }
+    case 9: {
+        console.log('Helping Junior ')
+        break;
+    }
+    case 10: {
+        console.log('Dusshera')
+        break;
+    }
+    case 11: {
+        console.log('Diwali')
+        break;
+    }
+    case 12: {
+        console.log('End Sem')
+        break;
+    }
+    default: {
+
+    }
+}
+
+
+
+// varible declartion ; initialization ; condition ; actions
+
+
+// i=0;
+// for(let i =0; i<5;i++){
+//     console.log(i) //  0 ,1  , 2 , 3 , 4 
+// }
+
+
+for(const k =0;k<5; ++k)  {
+    console.log(k)
+}
+
