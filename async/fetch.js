@@ -18,7 +18,6 @@ function error(error) {
 }
 response.then(success).catch(error)
 
-
 function fetchUsers() {
     function success (res) {
         res.json().then((result)=>{
@@ -35,3 +34,8 @@ function fetchUsers() {
 }
 
 fetchUsers()
+
+
+
+
+fetch('https://academics.newtonschool.co/api/v1/ecommerce/clothes/products?page=${pageNumber}&limit=${dataPerPage' )
